@@ -120,9 +120,7 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 span[role="img"] {
   cursor: default;
@@ -240,6 +238,21 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+}
+.projectHeader {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.projectName {
+	font-weight: bold;
+}
+
+.linkProject {
+	color: var(--secondary-color);
+}
+
+.linkProject:hover {
+	color: var(--tertiary-color);
 }
 
 .modalBackdrop {
