@@ -39,10 +39,10 @@ function Project() {
 					return (
 						<div key={project.name} className="col-12 col-md-6 col-lg-4 mb-3">
 							<div className="card">
-								<img
+								<img 
 									src={project.image}
 									alt={project.name}
-									className="card-img-top"
+									className="card-img-top imagetag"
 								></img>
 								<div className="card-body">
 									<h5 className="card-title text-center projectName">
@@ -54,7 +54,7 @@ function Project() {
 										href={project.deployedUrl}
 										className="card-text linkProject"
 									>
-										Deployed project
+										Deployed Link
 									</a>
 									<br />
 									<a

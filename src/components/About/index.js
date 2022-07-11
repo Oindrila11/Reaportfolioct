@@ -8,7 +8,7 @@ function About() {
     
      <p className= "text-center">
         <h2>Im a new web developer</h2>
-         Currently taking full stack web developer course with University of Toronto. I have completed diploma in Biotechnology and have worked in my field for 3 years. Now looking to learn something new! Learning front-end and back-end application. My new required skills are: 
+         Currently taking full stack web developer course with University of Toronto. I have completed diploma in Biotechnology and have worked in my field for 3 years. Now looking to learn something new! Learning front-end and back-end application. My new acquired skills are: 
          <br/>
          <br />
          Back-end skills:<br />

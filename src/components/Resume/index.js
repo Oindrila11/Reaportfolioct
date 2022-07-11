@@ -2,8 +2,8 @@ import React from "react";
 
 function Resume() {
     return(
-        <div>
-            <h2>
+        <div className="resume">
+            <h2 className="resumeForm" >
                 Resume
             </h2>
             <a

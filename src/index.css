@@ -45,7 +45,7 @@ a {
 ul {
   list-style-type: none;
 }
-/* 
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -65,13 +65,13 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
-} */
+} 
 
 
 
 
 form {
-  width: 40%;
+  width: 60%;
 }
 
 input {
@@ -112,89 +112,47 @@ input:focus {
 .selectedNav {
 	font-weight: bolder;
 	color: var(--tertiary-color);
-}
 
-/* textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
-} */
-
-.mainContainer {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
-/* 
-.flex-row {
+.navbar {
   display: flex;
-  flex-wrap: wrap;
-}
-
-.space-between {
   justify-content: space-between;
 }
 
-.flex-end {
-  justify-content: flex-end;
+
+.mainContainer {
+ 
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
+.resumeForm {
+  color: var(--primary-color);
+  font-weight: bold;
 }
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-} */
-
-.card {
-  width: 25%;
+.resumeLink {
+  
+  padding-top: 10px;
+  font-size: bold;
+  width: fit-content;
   text-align: center;
 }
 
+.card {
+  width: 20%;
+  margin: 5px;
+  
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
 
 .projectHeader {
   color: var(--secondary-color);
   font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+
 }
 .projectName {
 	font-weight: bold;
@@ -207,7 +165,24 @@ input:focus {
 .linkProject:hover {
 	color: var(--tertiary-color);
 }
-
+.my-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  padding-top: 20px;
+}
+.imagetag{
+  width: 200px;
+  height: 200px;
+  
+}
+.contact-style{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 80px;
+}
 
 
 /* button {
@@ -230,9 +205,11 @@ a {
 .footer-list {
   display: flex;
   justify-content: center;
-position: fixed;
+  
+  position: fixed;
 bottom: 0;
   background-color: var(--secondary);
+  width: 100%;
 
   
   
@@ -241,10 +218,23 @@ bottom: 0;
 .footer-list li{
 list-style: none;
 
+
 }
 
 .social-icon {
   font-size: 40px;
   color: var(--darker);
 
+
+
+}
+#contact-form{
+  text-align: center;
+
+  margin: auto 0;
+  padding-top: 20px;
+}
+.resume{
+  text-align: center;
+  padding-top: 100px;
 }
