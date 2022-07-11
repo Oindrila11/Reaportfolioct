@@ -1,8 +1,8 @@
 import React from "react";
-import portfolioImage1 from "../../assets/budget-tracker.png";
-import portfolioImage2 from "../../assets/project1.png";
-import portfolioImage3 from "../../assets/project2.png";
-import portfolioImage4 from "../../assets/weather.png";
+import portfolioImage1 from "../../assets/Images/budget-tracker.png";
+import portfolioImage2 from "../../assets/Images/project1.png";
+import portfolioImage3 from "../../assets/Images/project2.png";
+import portfolioImage4 from "../../assets/Images/weather.png";
 
 function Project() {
     const projects = [

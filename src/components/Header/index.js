@@ -1,9 +1,9 @@
 
 import React from "react";
-import Navigation from "../Nav";
+import Nav from "../Nav";
 
 function Header(props) {
-	const { sections = [], currentSection, setCurrentSection } = props;
+	const { categories = [], currentCategory, setCurrentCategory } = props;
 
 	return (
 		<div className="mb-2">
@@ -15,9 +15,9 @@ function Header(props) {
 						</div>
 						<nav className="text-center">
 							<Nav
-								sections={sections}
-								currentSection={currentSection}
-								setCurrentSection={setCurrentSection}
+								categories={categories}
+								currentCategory={currentCategory}
+								setCurrentCategory={setCurrentCategory}
 							></Nav>
 						</nav>
 					</div>

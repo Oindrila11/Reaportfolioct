@@ -1,13 +1,14 @@
 
 import React, { useState } from "react";
+import "./App.css";
 
 import About from "./components/About";
-
+import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-import ContactForm from "./components/Contact";
+
 
 
 function App() {
@@ -16,10 +17,10 @@ function App() {
       name: "About Me",
      
     },
-    { name: "Contact", 
+    { name: "Portfolio", 
   },
     {
-      name: "Portfolio",
+      name: "Contact",
     },
     {
       name: "Resume",
@@ -40,7 +41,7 @@ function App() {
 
       <main className="content-wrapper">
         {(() => {
-          if (currentCategory === 'About') {
+          if (currentCategory === 'About Me') {
             return (
               <div>
                 <About></About>
@@ -68,7 +69,7 @@ function App() {
 
             );
           }
-          
+          return <About></About>
         })()}
       </main>
       <Footer></Footer>

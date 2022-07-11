@@ -1,23 +1,23 @@
 import React from "react";
 
-function Nav(props) {
-	const { sections = [], currentSection, setCurrentSection } = props;
+function Nav (props)  {
+	const { categories = [], currentCategory, setCurrentCategory } = props;
 
 	return (
 		<div className="navbar">
-			{sections.map((section) => (
+			{categories.map((category) => (
 				<li
 					className={`nav px-1 mt-3 col-3 ${
-						currentSection === section.name && "selectedNav"
+						currentCategory === category.name && "selectedNav"
 					}`}
-					key={section.name}
+					key={category.name}
 				>
 					<span
 						onClick={() => {
-							setCurrentSection(section.name);
+							setCurrentCategory(category.name);
 						}}
 					>
-						{section.name}
+						{category.name}
 					</span>
 				</li>
 			))}
