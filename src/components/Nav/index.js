@@ -1,59 +1,30 @@
-import React from 'react';
-import {  FcBusinesswoman} from "react-icons/fc";
-function Nav() {
+import React from "react";
 
-    const [categories] = useState([
-    {
-      name: "portfolio",
-  
-    },
-    { name: "resume", },
-    
-    
-  ]);
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+function Nav(props) {
+	const { sections = [], currentSection, setCurrentSection } = props;
 
- return (
-    <header className="flex-row px-1">
-        <h2>
-            <a data-testid="link" href="/">
-            
-      <span role="img" aria-label="camera">
-        {""}
-        <FcBusinesswoman /></span> {""}
-        Oindrila  
-            </a>
-        </h2>
-        <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a
-              href="#about"
-            >
-              About me
-            </a>
-          </li>
-          <li>
-            <span>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li className={`mx-1 ${
-                currentCategory.name === category.name && 'navActive'
-                }`} key={category.name}>
-              <span
-                onClick={() => {
-                  setCurrentCategory(category)
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
- );
-            }
+	return (
+		<div className="navbar">
+			{sections.map((section) => (
+				<li
+					className={`nav px-1 mt-3 col-3 ${
+						currentSection === section.name && "selectedNav"
+					}`}
+					key={section.name}
+				>
+					<span
+						onClick={() => {
+							setCurrentSection(section.name);
+						}}
+					>
+						{section.name}
+					</span>
+				</li>
+			))}
+		</div>
+	);
+}
+
 
   
 

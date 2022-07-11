@@ -1,30 +1,27 @@
 
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
-}
+
 :root {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #81A79E ;
-  --darker: #056951;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --dark:#023049 ;
+  --darker: #000201;
+  --font-family: 'Gulzar', serif;
+  --line-height: 1.3;
 
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html,
-body {
-  min-height: 100%;
+html
+ {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -122,9 +119,6 @@ button[disabled] {
 
 
 
-span[role="img"] {
-  cursor: default;
-}
 
 form {
   width: 40%;
@@ -294,15 +288,8 @@ button {
 }
 
 a {
-	border-radius: 5px;
+	text-decoration: none;
 	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+
 }
 
-.navActive {
-  color: var(--secondary);
-}
