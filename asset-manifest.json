@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.260c7033.css",
+    "main.js": "/static/js/main.3abe5597.js",
+    "static/media/project2.png": "/static/media/project2.75947ad2ddb442f5a425.png",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.81dcce9a3253f8cf8d58.png",
+    "static/media/weather.png": "/static/media/weather.4aca04cb70f832e05439.png",
+    "static/media/project1.png": "/static/media/project1.b830cf6a50fccad39a8c.png",
+    "index.html": "/index.html",
+    "main.260c7033.css.map": "/static/css/main.260c7033.css.map",
+    "main.3abe5597.js.map": "/static/js/main.3abe5597.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.260c7033.css",
+    "static/js/main.3abe5597.js"
+  ]
+}
