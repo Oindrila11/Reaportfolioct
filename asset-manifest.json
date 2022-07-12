@@ -1,17 +1,17 @@
 {
-  "files": {
-    "main.css": "/static/css/main.260c7033.css",
-    "main.js": "/static/js/main.3abe5597.js",
-    "static/media/project2.png": "/static/media/project2.75947ad2ddb442f5a425.png",
-    "static/media/budget-tracker.png": "/static/media/budget-tracker.81dcce9a3253f8cf8d58.png",
-    "static/media/weather.png": "/static/media/weather.4aca04cb70f832e05439.png",
-    "static/media/project1.png": "/static/media/project1.b830cf6a50fccad39a8c.png",
-    "index.html": "/index.html",
-    "main.260c7033.css.map": "/static/css/main.260c7033.css.map",
-    "main.3abe5597.js.map": "/static/js/main.3abe5597.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.260c7033.css",
-    "static/js/main.3abe5597.js"
-  ]
+  "main.css": "/Reaportfolioct/static/css/main.a6cd3bc7.chunk.css",
+  "main.js": "/Reaportfolioct/static/js/main.16d64e91.chunk.js",
+  "main.js.map": "/Reaportfolioct/static/js/main.16d64e91.chunk.js.map",
+  "static/js/1.4315a229.chunk.js": "/Reaportfolioct/static/js/1.4315a229.chunk.js",
+  "static/js/1.4315a229.chunk.js.map": "/Reaportfolioct/static/js/1.4315a229.chunk.js.map",
+  "runtime~main.js": "/Reaportfolioct/static/js/runtime~main.b8897f55.js",
+  "runtime~main.js.map": "/Reaportfolioct/static/js/runtime~main.b8897f55.js.map",
+  "static/media/budget-tracker.png": "/Reaportfolioct/static/media/budget-tracker.15d594b3.png",
+  "static/media/project1.png": "/Reaportfolioct/static/media/project1.9eda332a.png",
+  "static/media/project2.png": "/Reaportfolioct/static/media/project2.7e68870d.png",
+  "static/media/weather.png": "/Reaportfolioct/static/media/weather.de79ea51.png",
+  "static/css/main.a6cd3bc7.chunk.css.map": "/Reaportfolioct/static/css/main.a6cd3bc7.chunk.css.map",
+  "index.html": "/Reaportfolioct/index.html",
+  "precache-manifest.69f55e6527aaa43e9e674db6809679ce.js": "/Reaportfolioct/precache-manifest.69f55e6527aaa43e9e674db6809679ce.js",
+  "service-worker.js": "/Reaportfolioct/service-worker.js"
 }
