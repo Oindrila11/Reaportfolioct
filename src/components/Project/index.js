@@ -3,6 +3,7 @@ import portfolioImage1 from "../../assets/Images/budget-tracker.png";
 import portfolioImage2 from "../../assets/Images/project1.png";
 import portfolioImage3 from "../../assets/Images/project2.png";
 import portfolioImage4 from "../../assets/Images/weather.png";
+import portfolioImage5 from "../../assets/Images/Project3.png";
 
 function Project() {
     const projects = [
@@ -29,6 +30,12 @@ function Project() {
         image: portfolioImage4,
         deployedUrl: "https://oindrila11.github.io/weather-wind-hot-cold-what-not/" ,
         githubUrl: "https://github.com/Oindrila11/weather-wind-hot-cold-what-not.git",
+     },
+	 {
+        name: "project3",
+        image: portfolioImage5,
+        deployedUrl: "https://space-jetters.herokuapp.com/" ,
+        githubUrl: "https://github.com/projectbootcamp3/Space-Jetters.git",
      },
     ];
 
